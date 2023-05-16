@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <title>
+            Milchimp
+        </title>
+        <style>
+            body{
+                margin: 0;
+                height: 2000px;
+            }
+            .adv{
+                background-color: black;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Roboto,Arial;
+                height: 40px;
+            }
+            .aa{
+                text-decoration: underline;
+            }
+            .header{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .left a{
+                margin-left: 5px;
+                color: black;
+                text-decoration: inherit;
+                display: inline-block;
+                justify-content: space-between;
+            }
+            .left a:hover{
+                text-decoration: underline;
+            }
+            .middle{
+                width: 50px;
+            }
+            .right{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .login, .Language, .Free_trial{
+                height: 40px;
+                margin-right: 5px;
+                border: 1px solid black;
+                border-radius: 20px;
+            }
+            .Free_trial{
+                background-color: rgb(241, 253, 2);
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .login{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .login:hover{
+                box-shadow: 2px 2px 2px black;
+            }
+            .Free_trial:hover{
+                box-shadow: 2px 2px 2px black;
+            }
+            .back{
+                width: 100%;
+                z-index: 1;
+                position: relative;
+            }
+            .background{
+                margin-top: 10px;
+            }
+            .back_right a{
+                color: black;
+                text-decoration: inherit;
+                display: inline-block;
+                margin-right: 10px;
+                align-items: flex-end;
+            }
+            .back_right{
+                z-index: 2;
+                position: absolute;
+                display: flex;
+                justify-content: end;
+                width: 95%;
+            }
+            .back_right a:hover{
+                text-decoration: underline;
+                color: rbg(137,2,137);
+            }
+            .membership,.membership-content{
+            margin-top: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 52px;
+            color: rgb(137, 2, 137);
+            font-weight: bold;
+        }
+        .membership-content{
+            margin-top: 40px;
+            margin-bottom: 100px;
+        }
+        .text{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            color: rgb(214, 93, 214);
+            font-weight: bold;
+        }
+        .withicons{
+            margin-left: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+        }
+        .imgchanges{
+            height: 200px;
+        }
+        .inner-headings{
+            margin-top: 25px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: rgb(137, 2, 137);
+            font-weight: 500;
+            margin-left: 12px;
+        }
+        .inner-text{
+            margin-top: 25px;
+            color:rgb(214, 93, 214);
+            font-size: 25px;
+        }
+        .div-on-img{
+            display: block;
+            width: 25%;
+            margin-left:15%;
+            position: absolute;
+            z-index: 100;
+            margin-top: 11%;
+        }
+        .div-on-img-text{
+            margin-top: 20px;
+            color: rgb(181, 48, 48);
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn{
+            background-color: rgb(44, 77, 212);
+            border:none;
+            color:white;
+            padding: 12px 12px 12px 12px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            opacity: 0.6;
+            box-shadow: 2px 2px 2px black;;
+        }
+        .div-on-img-heading{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 52px;
+            color: rgb(134, 15, 15);
+            font-weight: bold;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <div class="adv">
+            Hey there! Free trials are available for Standard and Essential plans.<span class="aa">Start for free today</span>
+        </div>
+        <div class="header">
+            <div class="left">
+                <a href="#">Products</a>
+                <a href="#">Resources</a>
+                <a href="#">Inspiration</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="middle">
+                <img src="Screenshot 2023-05-16 111546.png">
+            </div>
+            <div class="right">
+                <div class="contact">
+                    Sales:<br>+1(800)315-5939
+                </div>
+                <select name="Lnguage" class="Language">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                </select>
+                <button class="login">Login</button>
+                <button class="Free_trial">Start free trial</button>
+            </div>
+        </div>
+        <div class="background">
+            <div class="back_right">
+                <a href="#">Overview</a>
+                <a href="#">Features</a>
+                <a href="#">Benefits</a>
+                <a href="#">Community</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="div-on-img">
+                <div class="div-on-img-heading">
+                    Grow your way with Mailchimp & Co
+                </div>
+                <div class="div-on-img-text">
+                    Are you a freelancer or agency helping small businesses succeed? 
+                    Join Mailchimp & Co to learn new skills, build your reputation, 
+                    and get tools to help you manage your clients. It’s free and easy to get started.
+                </div>
+                <button class="btn">Join Mailchimp & Co</button>
+            </div>
+            <img class="back" src="Overview_Hero.jpg">
+        </div>
+        <div class="membership">
+            <div class="heading">Membership has its benefits</div>
+        </div>
+        <div class="membership-content">
+            <div class="text">
+                You help your clients to build their bussiness with Mailchimp.So we<br>
+                have designed a community to help you grow yours,in your own unique ways
+            </div>
+        </div>
+        <div class="withicons">
+            <div class="firstdiv">
+                <img src="img1.webp" class="imgchanges">
+                <div class="inner-headings">Grow your bussiness</div>
+                <div class="inner-text">Find more clients and earn rewards</div>
+            </div>
+            <div class="firstdiv">
+                <img src="img2.webp" class="imgchanges">
+                <div class="inner-headings">Expand your bussiness</div>
+                <div class="inner-text">With Mailchimp & Co, you get access to exclusive tips and training.</div>
+            </div>
+            <div class="firstdiv">
+                <img src="img3.webp" class="imgchanges">
+                <div class="inner-headings">Simplify Client Work</div>
+                <div class="inner-text">Get Mailchimp tools designed just for freelancers and agencies like you</div>
+            </div>
+            <div class="firstdiv">
+                <img src="img4.webp" class="imgchanges">
+                <div class="inner-headings">Get insider perks</div>
+                <div class="inner-text">From Inspiring Events to first looks at new features we've got you covered</div>
+            </div>
+        </div>
+    </body>
+</html>
